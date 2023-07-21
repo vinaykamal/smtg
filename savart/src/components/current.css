@@ -1,0 +1,43 @@
+.main-comp{
+    justify-content: center;
+    /* padding: 10px; */
+    display: inline-block;
+    /* background-color: yellow; */
+    width: 30%;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.main-comp:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 5px;
+}
+
+.bookmark{
+    text-align: right;
+    padding: 5px;
+}
+
+.mid-comp{
+    display: flex;
+    margin: 5px;
+}
+
+.price-div{
+    padding: 10px;
+    text-align: right;
+    background-color: lightblue;
+    height: 50px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.svg-div{
+    padding: 10px;
+}
+
+.down{
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
+    justify-content: space-between;
+}
